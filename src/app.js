@@ -11,7 +11,7 @@ var encodings = [
   "replacement", "UTF-16BE", "UTF-16LE", "x-user-defined"
 ]
 var old_ynab_cols = ["Date", "Payee", "Memo", "Outflow", "Inflow"];
-var new_ynab_cols = ["Date", "Payee", "Memo", "Amount"];
+var new_ynab_cols = ["Date", "Payee", "Memo", "Amount", "Category", "Notes","Label"];
 
 Date.prototype.yyyymmdd = function () {
   var mm = this.getMonth() + 1; // getMonth() is zero-based
