@@ -1,9 +1,9 @@
-# ynab-csv
+# pocketsmith-csv
 
 
-Tool for making your CSV files ready to import into YNAB.
+Tool for making your CSV files ready to import into pocketsmith.
 
-http://aniav.github.io/ynab-csv/
+http://emms007.github.io/pocketsmith-csv/
 
 **NOTE:** currently works best in Chrome. See "Known Issues" below for more details.
 
