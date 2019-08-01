@@ -61,7 +61,7 @@ window.DataObject = class DataObject {
           tmp_row = {};
           ynab_cols.forEach(function (col) {
             var cell;
-            cell = row[lookup[col]];
+            cell = row[lookup[col]].replace('"',"'");
             // Some YNAB columns need special formatting,
             //   the rest are just returned as they are.
             if (cell) {
